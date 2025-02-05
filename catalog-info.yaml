@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx-sample-app
+  description: A simple NGINX deployment to test ArgoCD integration
+  annotations:
+    argocd/app-name: nginx-sample       # Matches the ArgoCD application name
+    backstage.io/kubernetes-id: nginx-sample-app
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Liquizar/argo-sample-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: devops-team
+
