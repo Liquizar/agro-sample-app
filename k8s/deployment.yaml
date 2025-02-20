@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
+    backstage.io/kubernetes-id: nginx-sample-app
     app: nginx
 spec:
   replicas: 2
@@ -12,6 +13,7 @@ spec:
   template:
     metadata:
       labels:
+        backstage.io/kubernetes-id: nginx-sample-app
         app: nginx
     spec:
       containers:
