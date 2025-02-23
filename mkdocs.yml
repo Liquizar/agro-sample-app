@@ -1,0 +1,6 @@
+site_name: NGINX Sample Application
+site_description: This repository contains a simple NGINX deployment to test ArgoCD and Backstage integration on Kubernetes.
+plugins:
+  - techdocs-core
+nav:
+  - Getting Started: README.md
