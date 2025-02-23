@@ -8,6 +8,7 @@ metadata:
     backstage.io/kubernetes-id: nginx-sample-app
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Liquizar/argo-sample-app
+    backstage.io/linguist: https://github.com/Liquizar/agro-sample-app.git
 spec:
   type: service
   lifecycle: experimental
